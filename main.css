@@ -6,7 +6,7 @@
   html,
   body {
     height: 100%;
-  
+
   }
   
   #container {
@@ -25,11 +25,11 @@
     height: 100px;
     margin-top: -100px;
     clear: both;
-    padding-left: 225px;
+    padding-left: 650px;
   }
   
   h1 {
-    color: green;
+    color: orangered;
     border: 2px outset;
     border-color: black;
     background-color: tan;
@@ -71,8 +71,3 @@
     height: 60px;
     color: white;
   }
-  
-  #main > input{
-   /*  padding-right: 1px; */
-  }
-  
