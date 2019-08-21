@@ -1,32 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./main.css" />
     <title>AZ ONLINE ART GALLERY</title>
-</head>
-<body>
-  <header>
-          <h1>AZ ONLINE ART GALLERY</h1>
-  </header>
-  <div id="container">
-    <div id="main">
-      <ul id="nav">
-        <a href=""><strong>Home</strong></a>
-        <a href=""><strong>Login</strong></a>
-        <a href=""><strong>Paintings</strong></a>
-        <a href=""><strong>Drawings</strong></a>
-        <a href=""> <strong>Our Artists</strong></a>
-      </ul>
-      <input type="text" id="search-input" class="search-field" placeholder="Search">
+  </head>
+  <body>
+    <header>
+      <h1>ONLINE ART GALLERY</h1>
+    </header>
+    <div id="container">
+      <div id="main">
+        <ul id="nav">
+          <a href=""><strong>Home</strong></a>
+          <a href=""><strong>Login</strong></a>
+          <a href=""><strong>Paintings</strong></a>
+          <a href=""><strong>Drawings</strong></a>
+          <a href=""> <strong>Our Artists</strong></a>
+        </ul>
+        <input
+          type="text"
+          id="search-input"
+          class="search-field"
+          placeholder="Search"
+        />
+        <div id="section-container">
+          <section id="section-one">
+            <div id="art-container">
+              <div id="description">
+                <h3>Art Title</h3>
+                <h4>Artist Name</h4>
+                <p>
+                  This describes the art Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Nostrum eveniet facilis necessitatibus, vero
+                  aperiam perferendis, voluptas cumque repellendus laboriosam,
+                  mollitia consequatur itaque maxime? Eius accusantium soluta
+                  illum itaque dolores necessitatibus?
+                </p>
+              </div>
+              <div id="picture-container">
+                <img
+                  id="art"
+                  src="https://images.unsplash.com/photo-1549490349-8643362247b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  alt="A picture I found"
+                />
+              </div>
+            </div>
+          </section>
+          <section id="section-two" style="display: none">
+            <div id="art-container">
+              <div id="description">
+                <h3>Art Two: Electric Boogaloo</h3>
+                <h4>Artist two</h4>
+                <p>
+                  This also describes the art Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Nostrum eveniet facilis necessitatibus, vero
+                  aperiam perferendis, voluptas cumque repellendus laboriosam,
+                  mollitia consequatur itaque maxime? Eius accusantium soluta
+                  illum itaque dolores necessitatibus?
+                </p>
+              </div>
+              <div id="picture-container">
+                <img
+                  id="art"
+                  src="https://images.unsplash.com/photo-1549490349-8643362247b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  alt="A picture I found"
+                />
+              </div>
+            </div>
+          </section>
+          <section id="section-three" style="display: none">
+            <div id="art-container">
+              <div id="description">
+                <h3>Half-Life:3</h3>
+                <h4>Doesnt Exist</h4>
+                <p>
+                  This describes the art Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Nostrum eveniet facilis necessitatibus, vero
+                  aperiam perferendis, voluptas cumque repellendus laboriosam,
+                  mollitia consequatur itaque maxime? Eius accusantium soluta
+                  illum itaque dolores necessitatibus?
+                </p>
+              </div>
+              <div id="picture-container">
+                <img
+                  id="art"
+                  src="https://images.unsplash.com/photo-1549490349-8643362247b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  alt="A picture I found"
+                />
+              </div>
+            </div>
+          </section>
+          <section id="section-four" style="display: none">
+            <div id="art-container">
+              <div id="description">
+                <h3>Art four</h3>
+                <h4>Artist four</h4>
+                <p>
+                  This describes the third art Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Nostrum eveniet facilis necessitatibus, vero
+                  aperiam perferendis, voluptas cumque repellendus laboriosam,
+                  mollitia consequatur itaque maxime? Eius accusantium soluta
+                  illum itaque dolores necessitatibus?
+                </p>
+              </div>
+              <div id="picture-container">
+                <img
+                  id="art"
+                  src="https://images.unsplash.com/photo-1549490349-8643362247b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  alt="A picture I found"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
     </div>
-  </div>
+    <script src="./main.js"></script>
+  </body>
   <footer id="footer">
     <a href="">About Us</a>
     <a href="">Support Us</a>
     <a href="">Contact Us</a>
   </footer>
-</body>
 </html>

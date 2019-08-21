@@ -3,10 +3,8 @@
     padding: 0;
   }
   
-  html,
-  body {
-    height: 100%;
-
+  html, body {
+    height: 100vh;
   }
   
   #container {
@@ -65,7 +63,37 @@
     color: black;
     text-decoration: underline;
   }
-  
+
+  section {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #art-container {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  #description {
+    width: 50%
+  }
+
+  #picture-container {
+    width: 50%;
+    height: 100%;
+  }
+
+  #art {
+    width: 100%;
+  }
+
   #footer > a {
     bottom: 0;
     height: 60px;
