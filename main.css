@@ -90,11 +90,16 @@ img {
   object-fit: cover;
   padding-left: 46px;
   margin-bottom: -5px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
 }
 
 img:hover {
   webkit-filter: blur(2px); /* Chrome, Safari, Opera */
-  filter: blur(2px);
+  filter: blur(2px) brightness(75%);
 }
 
 #footer > a {
