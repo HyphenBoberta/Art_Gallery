@@ -1,101 +1,104 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  html, body {
-    height: 100vh;
-  }
-  
-  #container {
-    min-height: 100%;
-  }
-  
-  #main {
-    overflow: auto;
-    padding-bottom: 100px;
-  }
-  
-  #footer {
-    color: white;
-    background-color: #000;
-    position: relative;
-    height: 100px;
-    margin-top: -100px;
-    clear: both;
-    padding-left: 650px;
-  }
-  
-  h1 {
-    color: orangered;
-    border: 2px outset;
-    border-color: black;
-    background-color: tan;
-    text-align: center;
-    text-shadow:
-      -0px -0px 0 black,
-      0px -0px 0 black,
-      -0px 0px 0 black,
-      2px 2px 0 grey;
-  }
-  
-  body {
-    background-image: url("https://img.freepik.com/free-vector/white-textured-paper_53876-86282.jpg?size=626&amp;ext=jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-  
-  #nav {
-    float: left;
-    padding-left: 1px;
-    text-align: justify;
-  }
-  #search-input {
-    float: right;
-  }
-  
-  #nav > a {
-    border: 2px outset;
-    border-color: black;
-    background-color: wheat;
-    padding-left: 2px;
-    padding-right: 10px;
-    color: black;
-    text-decoration: underline;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  section {
-    height: 80%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+html,
+body {
+  height: 100vh;
+}
 
-  #art-container {
-    height: 80%;
-    width: 60%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 10vh;
-  }
+#container {
+  min-height: 100%;
+}
 
-  #description {
-    width: 50%
-  }
+#main {
+  overflow: auto;
+  padding-bottom: 100px;
+}
 
-  #picture-container {
-    width: 50%;
-    height: 100%;
-  }
+#footer {
+  color: white;
+  background-color: #000;
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+  padding-left: 650px;
+}
 
-  #art {
-    width: 100%;
-  }
+h1 {
+  color: orangered;
+  border: 2px outset;
+  border-color: black;
+  background-color: tan;
+  text-align: center;
+  text-shadow: -0px -0px 0 black, 0px -0px 0 black, -0px 0px 0 black,
+    2px 2px 0 grey;
+}
 
-  #footer > a {
-    bottom: 0;
-    height: 60px;
-    color: white;
-  }
+body {
+  background-image: url("https://wallpaperaccess.com/full/130063.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  backdrop-filter: blur(3px)
+}
+
+#nav {
+  float: left;
+  padding-left: 1px;
+  text-align: justify;
+}
+
+#nav > a {
+  border: 2px outset;
+  border-color: black;
+  background-color: wheat;
+  padding-left: 2px;
+  padding-right: 10px;
+  color: black;
+  text-decoration: underline;
+}
+
+section {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#art-container {
+  height: 80%;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10vh;
+  box-shadow: 5px 5px 16px #111;
+  background: tan;
+}
+
+#description {
+  width: 50%;
+  padding-left: 10px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  padding-left: 46px;
+  margin-bottom: -5px;
+}
+
+img:hover {
+  webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+  filter: blur(2px);
+}
+
+#footer > a {
+  bottom: 0;
+  height: 60px;
+  color: white;
+}
